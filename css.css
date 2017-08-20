@@ -1,0 +1,2137 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 100px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 16.667px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 19.531px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 20.833px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 21.563px;
+  }
+}
+
+@media screen and (min-width: 435px) {
+  html {
+    font-size: 22.656px;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  html {
+    font-size: 23.958px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 33.333px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 53.333px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 66.667px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 71.146px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 83.333px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  html {
+    font-size: 87.5px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes backgroundColor {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.backgroundColor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* animation: backgroundColor 2s ease infinite;*/
+  animation-iteration-count: 1;
+}
+
+#content {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 6;
+}
+
+.both {
+  width: 100%;
+  height: 100%;
+}
+
+.both img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fangda_one {
+  0% {
+    transform: scale(1, 1);
+  }
+  5% {
+    transform: scale(5, 5);
+  }
+  10% {
+    transform: scale(10, 10);
+  }
+  15% {
+    transform: scale(15, 15);
+  }
+  20% {
+    transform: scale(20, 20);
+  }
+  25% {
+    transform: scale(25, 25);
+  }
+  30% {
+    transform: scale(30, 30);
+  }
+  35% {
+    transform: scale(35, 35);
+  }
+  40% {
+    transform: scale(40, 40);
+  }
+  45% {
+    transform: scale(45, 45);
+  }
+  50% {
+    transform: scale(50, 50);
+  }
+  55% {
+    transform: scale(55, 55);
+  }
+  60% {
+    transform: scale(60, 60);
+  }
+  65% {
+    transform: scale(65, 65);
+  }
+  70% {
+    transform: scale(70, 70);
+  }
+  75% {
+    transform: scale(75, 75);
+  }
+  80% {
+    transform: scale(80, 80);
+  }
+  85% {
+    transform: scale(85, 85);
+  }
+  90% {
+    transform: scale(90, 90);
+  }
+  95% {
+    transform: scale(95, 95);
+  }
+  100% {
+    transform: scale(100, 100);
+  }
+}
+
+@keyframes fangda_two {
+  0% {
+    transform: scale(1, 1);
+  }
+  5% {
+    transform: scale(5, 5);
+  }
+  10% {
+    transform: scale(10, 10);
+  }
+  15% {
+    transform: scale(15, 15);
+  }
+  20% {
+    transform: scale(20, 20);
+  }
+  25% {
+    transform: scale(25, 25);
+  }
+  30% {
+    transform: scale(30, 30);
+  }
+  35% {
+    transform: scale(35, 35);
+  }
+  40% {
+    transform: scale(40, 40);
+  }
+  45% {
+    transform: scale(45, 45);
+  }
+  50% {
+    transform: scale(50, 50);
+  }
+  55% {
+    transform: scale(55, 55);
+  }
+  60% {
+    transform: scale(60, 60);
+  }
+  65% {
+    transform: scale(65, 65);
+  }
+  70% {
+    transform: scale(70, 70);
+  }
+  75% {
+    transform: scale(75, 75);
+  }
+  80% {
+    transform: scale(80, 80);
+  }
+  85% {
+    transform: scale(85, 85);
+  }
+  90% {
+    transform: scale(90, 90);
+  }
+  95% {
+    transform: scale(95, 95);
+  }
+  100% {
+    transform: scale(100, 100);
+  }
+}
+
+@keyframes fangda_three {
+  0% {
+    transform: scale(1, 1);
+  }
+  5% {
+    transform: scale(5, 5);
+  }
+  10% {
+    transform: scale(10, 10);
+  }
+  15% {
+    transform: scale(15, 15);
+  }
+  20% {
+    transform: scale(20, 20);
+  }
+  25% {
+    transform: scale(25, 25);
+  }
+  30% {
+    transform: scale(30, 30);
+  }
+  35% {
+    transform: scale(35, 35);
+  }
+  40% {
+    transform: scale(40, 40);
+  }
+  45% {
+    transform: scale(45, 45);
+  }
+  50% {
+    transform: scale(50, 50);
+  }
+  55% {
+    transform: scale(55, 55);
+  }
+  60% {
+    transform: scale(60, 60);
+  }
+  65% {
+    transform: scale(65, 65);
+  }
+  70% {
+    transform: scale(70, 70);
+  }
+  75% {
+    transform: scale(75, 75);
+  }
+  80% {
+    transform: scale(80, 80);
+  }
+  85% {
+    transform: scale(85, 85);
+  }
+  90% {
+    transform: scale(90, 90);
+  }
+  95% {
+    transform: scale(95, 95);
+  }
+  100% {
+    transform: scale(100, 100);
+  }
+}
+
+.point img {
+  width: 1%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+
+.point_one img {
+  animation: fangda_one 2s ease both infinite;
+}
+
+.point_two img {
+  animation: fangda_two 4s ease both infinite;
+}
+
+.point_three img {
+  animation: fangda_two 3s ease both infinite;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.logo {
+  width: 12%;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  margin-left: -6%;
+}
+
+.banner {
+  width: 34%;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  margin-left: -17%;
+}
+
+.font {
+  width: 26%;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  margin-left: -13%;
+}
+
+.start {
+  width: 12%;
+  position: absolute;
+  bottom: 18%;
+  left: 50%;
+  margin-left: -6%;
+  cursor: pointer;
+  z-index: 6;
+}
+
+#change {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  z-index: 6;
+}
+
+input {
+  display: none;
+}
+
+input:checked + .fonts {
+  background: #E48F02;
+}
+
+.fonts {
+  width: 1.6rem;
+  height: 0.5rem;
+  font-size: 0.2rem;
+  line-height: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #FAE8C6;
+  float: left;
+  color: #FAE8C6;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.fonts:hover {
+  background: #E48F02;
+}
+
+.fonts.big_font {
+  font-size: 0.24rem;
+}
+
+.ren {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  z-index: 3;
+  height: 40%;
+}
+
+.ren.girl_p {
+  width: 1.8rem;
+  margin-left: -0.9rem;
+  background: url('images/girl.png') no-repeat center;
+  background-size: 100%;
+}
+
+.ren.boy_p {
+  width: 1.4rem;
+  margin-left: -0.7rem;
+  background: url('images/boy.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG {
+  width: 8rem;
+  height: 38%;
+  margin-left: -4rem;
+  position: absolute;
+  left: 50%;
+  bottom: 11%;
+  z-index: 2;
+}
+
+.backG.zz {
+  width: 6rem;
+  height: 35%;
+  margin-left: -3rem;
+  background: url('images/backG_zz.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.kf {
+  background: url('images/backG_kf.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.xx {
+  width: 6rem;
+  margin-left: -3rem;
+  background: url('images/backG_xx.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.ly {
+  background: url('images/backG_ly.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.sq {
+  width: 6rem;
+  margin-left: -3.5rem;
+  background: url('images/backG_sq.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.ny {
+  width: 4.5rem;
+  background: url('images/backG_ny.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.jz {
+  background: url('images/backG_jz.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.pds {
+  width: 6rem;
+  margin-left: -3rem;
+  background: url('images/backG_pds.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.ay {
+  width: 6rem;
+  background: url('images/backG_ay.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.zk {
+  width: 6rem;
+  margin-left: -3rem;
+  background: url('images/backG_zk.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.xy {
+  width: 7rem;
+  height: 40%;
+  background: url('images/backG_xy.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.xc {
+  width: 6rem;
+  margin-left: -3rem;
+  background: url('images/backG_xc.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.qt {
+  width: 7rem;
+  margin-left: -3.5rem;
+  background: url('images/backG_qt.png') no-repeat center;
+  background-size: 100%;
+}
+
+
+/*第一步 性别选择*/
+
+.stepOne_font {
+  width: 36%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -18%;
+}
+
+.sex {
+  width: 28%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -14%;
+}
+
+.people {
+  width: 26%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin-left: -13%;
+}
+
+.pp {
+  width: 1.15rem;
+  float: left;
+  margin-right: 5%;
+}
+
+.pp_girl {
+  float: right;
+  width: 1.25rem;
+  margin-top: 0.4rem;
+  margin-right: 5%;
+}
+
+
+/*第二步 城市选择*/
+
+.stepTwo_font {
+  width: 40%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  margin-left: -20%;
+}
+
+.city {
+  width: 34%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -17%;
+}
+
+.city .fonts {
+  width: 1rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  border-radius: 4px;
+}
+
+.map {
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -15%;
+}
+
+
+/*第三步 行业选择*/
+
+.stepThree_font {
+  width: 40%;
+  height: 15%;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  margin-left: -20%;
+}
+
+.stepThree_font.zz {
+  background: url('images/font_zz.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.kf {
+  background: url('images/font_kf.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.xx {
+  background: url('images/font_xx.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.ly {
+  background: url('images/font_ly.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.sq {
+  width: 32%;
+  height: 20%;
+  top: 13%;
+  margin-left: -16%;
+  background: url('images/font_sq.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.ny {
+  background: url('images/font_ny.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.jz {
+  background: url('images/font_jz.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.pds {
+  background: url('images/font_pds.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.ay {
+  background: url('images/font_ay.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.zk {
+  background: url('images/font_zk.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.xy {
+  background: url('images/font_xy.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.xc {
+  background: url('images/font_xc.png') no-repeat center;
+  background-size: 100%;
+}
+
+.stepThree_font.qt {
+  background: url('images/font_qt.png') no-repeat center;
+  background-size: 100%;
+}
+
+.type {
+  width: 34%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: -17%;
+}
+
+.type .fonts {
+  width: 1.2rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  border-radius: 4px;
+  margin: 0.15rem;
+}
+
+.type .fonts.weight {
+  width: 2.2rem;
+}
+
+.fonts.shichang {
+  margin-left: 17%;
+}
+
+
+/*行业下面的职位选择*/
+
+.position_font {
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  margin-left: -15%;
+}
+
+
+/*工程师*/
+
+.gcs {
+  width: 34%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -17%;
+}
+
+.gcs .fonts {
+  width: 1rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  border-radius: 4px;
+}
+
+
+/*产品 设计*/
+
+.cp {
+  width: 34%;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  margin-left: -17%;
+}
+
+.cp .fonts {
+  width: 1.15rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  border-radius: 6px;
+  margin-left: 10%;
+}
+
+
+/*运营 行政 市场*/
+
+.yy {
+  width: 30%;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  margin-left: -15%;
+}
+
+.yy .fonts {
+  width: 1rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  border-radius: 4px;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+
+.position_bg {
+  width: 3.6rem;
+  height: 40%;
+  margin-left: -1.8rem;
+  position: absolute;
+  left: 50%;
+  bottom: 13%;
+  z-index: 2;
+}
+
+.position_bg.engineer {
+  bottom: 17%;
+  background: url('images/engineer.png') no-repeat center bottom;
+  background-size: 100%;
+}
+
+.position_bg.product {
+  width: 5.4rem;
+  margin-left: -2.7rem;
+  background: url('images/product.png') no-repeat right top;
+}
+
+.position_bg.design {
+  bottom: 15%;
+  margin-left: -1.3rem;
+  background: url('images/design.png') no-repeat right bottom;
+  background-size: 100%;
+}
+
+.position_bg.operation {
+  background: url('images/operation.png') no-repeat center;
+  background-size: 100%;
+}
+
+.position_bg.administration {
+  width: 2.4rem;
+  margin-left: -1.2rem;
+  background: url('images/administration.png') no-repeat right bottom;
+  background-size: 100%;
+}
+
+.position_bg.market {
+  width: 2.4rem;
+  bottom: 16%;
+  margin-left: 0;
+  background: url('images/market.png') no-repeat right bottom;
+  background-size: 100%;
+}
+
+.fonts.cehua {
+  margin-left: 16%;
+}
+
+
+/*第五步 工作时间*/
+
+.stepFive_font {
+  width: 30%;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  margin-left: -15%;
+}
+
+.experience {
+  width: 32%;
+  position: absolute;
+  left: 50%;
+  top: 31%;
+  margin-left: -16%;
+}
+
+.experience .fonts {
+  width: 1.8rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  border-radius: 6px;
+  margin: 3% 5%;
+}
+
+.fonts.ages {
+  margin-left: 24%;
+}
+
+
+/*第六步 学历选择*/
+
+.stepSix_font {
+  width: 32%;
+  position: absolute;
+  left: 50%;
+  top: 13%;
+  margin-left: -16%;
+}
+
+.school {
+  width: 14%;
+  position: absolute;
+  left: 50%;
+  top: 32%;
+  margin-left: -7%;
+}
+
+.school .fonts {
+  width: 2.2rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+}
+
+.backG.backG_school {
+  background: url('images/backG_school.png') no-repeat center;
+  background-size: 100%;
+}
+
+
+/*第七步  公司规模选择*/
+
+.stepSeven_font {
+  width: 30%;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  margin-left: -15%;
+}
+
+.department {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 31%;
+  margin-left: -20%;
+}
+
+.department .fonts {
+  width: 2.4rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  margin: 2% 9%;
+}
+
+.backG.xueli {
+  width: 6rem;
+  margin-left: -3rem;
+}
+
+.backG.zhuanke {
+  background: url('images/backG_zhuank.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.benke {
+  background: url('images/backG_benk.png') no-repeat center;
+  background-size: 100%;
+}
+
+.backG.yanjiusheng {
+  background: url('images/backG_yanjs.png') no-repeat center;
+  background-size: 100%;
+}
+
+
+/*第八步 老板命令*/
+
+.stepEight_font {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  margin-left: -20%;
+}
+
+.Boss {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  margin-left: -20%;
+}
+
+.Boss .fonts {
+  width: 2.8rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  margin: 2% 5%;
+}
+
+.Boss .fonts.gfs {
+  margin-left: 26%;
+  width: 3.4rem;
+}
+
+.fonts.marginLeft {
+  margin-left: 28%;
+}
+
+
+/*第九步 解压*/
+
+.stepNine_font {
+  width: 42%;
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  margin-left: -21%;
+}
+
+
+/*第十步 机会选择*/
+
+.stepTen_font {
+  width: 30%;
+  top: 18%;
+  position: absolute;
+  left: 50%;
+  margin-left: -15%;
+}
+
+
+/*最后一页计算结果*/
+
+.salary_before {
+  width: 20%;
+  position: absolute;
+  left: 50%;
+  top: 13%;
+  margin-left: -10%;
+}
+
+.salary_numberB {
+  width: 15%;
+  position: absolute;
+  left: 50%;
+  top: 22%;
+  margin-left: -7%;
+}
+
+.salary_numberA {
+  width: 15%;
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  margin-left: -7%;
+}
+
+.picture {
+  width: 15%;
+  float: left;
+}
+
+.salary_after {
+  width: 24%;
+  position: absolute;
+  left: 50%;
+  top: 33%;
+  margin-left: -12%;
+}
+
+.number {
+  width: 75%;
+  margin-left: 10%;
+  float: left;
+  font-size: 0.55rem;
+  font-weight: 600;
+  color: #F2075F;
+  letter-spacing: 0.08rem;
+  margin-top: -2%;
+}
+
+.last_btn {
+  width: 26%;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  margin-left: -13%;
+  z-index: 6;
+}
+
+.btn_left {
+  width: 38%;
+  float: left;
+  cursor: pointer;
+}
+
+.btn_right {
+  width: 38%;
+  float: right;
+  cursor: pointer;
+}
+
+.share {
+  width: 14%;
+  height: 7%;
+  position: absolute;
+  left: 50%;
+  bottom: 14%;
+  margin-left: -6%;
+  z-index: 5;
+}
+
+.share_font {
+  width: 25%;
+  float: left;
+  margin-top: 5%;
+}
+
+.share_pic {
+  width: 20%;
+  height: 100%;
+  float: left;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.ewm_box {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  width: 20%;
+  height: 40%;
+  margin-left: -10%;
+  z-index: 16;
+  background-color: #fff;
+  border-radius: 0.08rem;
+  display: none;
+}
+
+.ewm_font {
+  width: 35%;
+  height: 15%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.ewm {
+  width: 60%;
+  height: 65%;
+  margin-left: 20%;
+}
+
+.ewm_close {
+  width: 10%;
+  height: 15%;
+  margin-left: 45%;
+  cursor: pointer;
+}
+
+.ewm_box.block {
+  display: block;
+}
+
+
+/*登录弹框*/
+
+.login_content {
+  width: 25%;
+  height: 55%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url('images/backG_login.png') no-repeat left;
+  background-size: 100%;
+  z-index: 6;
+  min-height: 5.35rem;
+}
+
+.login {
+  width: 96%;
+  height: 96%;
+  margin: 2%;
+  background: #fff;
+}
+
+.remind {
+  width: 94%;
+  height: 1.1rem;
+  margin: 3%;
+  border-bottom: 2px solid #CECCCE;
+  font-size: 0.2rem;
+  font-weight: 500;
+  color: #ff8502;
+  text-align: center;
+  line-height: 1.1rem;
+}
+
+.code_font {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.25rem;
+  font-weight: 500;
+  color: #ff8502;
+  text-align: center;
+}
+
+.login label {
+  display: block;
+  border: 1px solid #D3D7D9;
+}
+
+.login .login_mobile {
+  width: 80%;
+  height: 0.4rem;
+  margin: auto;
+  margin-top: 0.1rem;
+}
+
+.login .login_code {
+  width: 80%;
+  height: 0.5rem;
+  margin: auto;
+  margin-top: 0.2rem;
+  position: relative;
+}
+
+.login_code label {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.login input {
+  float: left;
+  display: block;
+  border: none;
+  width: 80%;
+  height: 100%;
+  outline: none;
+}
+
+.login_pic {
+  float: left;
+  width: 0.2rem;
+  height: 0.2rem;
+  margin: 0.1rem 5%;
+}
+
+.login_code .login_pic {
+  margin-top: 0.18rem;
+}
+
+.login_pic img {
+  width: 100%;
+}
+
+.code {
+  float: right;
+  width: 28%;
+  height: 100%;
+  background-color: #ff8502;
+  color: #fff;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.5rem;
+  cursor: pointer;
+}
+
+.code_cover {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 28%;
+  height: 100%;
+}
+
+.login_btn {
+  width: 80%;
+  height: 0.45rem;
+  margin: auto;
+  margin-top: 0.3rem;
+  background-color: #ff8502;
+  color: #fff;
+  line-height: 0.45rem;
+  font-size: 0.2rem;
+  text-align: center;
+  letter-spacing: 0.12rem;
+  cursor: pointer;
+}
+
+.warning {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2px;
+  height: 0.2rem;
+  font-size: 0.02rem;
+  color: #DD5044;
+  text-align: left;
+  opacity: 0;
+}
+
+.warning.red {
+  opacity: 1;
+}
+
+
+/*职位推荐 有的情况*/
+
+.commend {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+}
+
+.commend_banner {
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  width: 40%;
+  margin-left: -20%;
+}
+
+.commend_font {
+  position: absolute;
+  left: 50%;
+  top: 33%;
+  width: 24%;
+  margin-left: -12%;
+}
+
+.commend_positions {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  width: 40%;
+  height: 5rem;
+  margin-left: -20%;
+  background: url('images/backG_positiontuijian.png') no-repeat center;
+  background-size: 100%;
+}
+
+.positions {
+  width: 96%;
+  height: 3rem;
+  margin-top: 1.5rem;
+  margin-left: 2%;
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  right: 3%;
+  bottom: -5%;
+  width: 1rem;
+  height: 0.3rem;
+  font-size: 0.2rem;
+  letter-spacing: 0.1rem;
+  text-align: right;
+  color: #fff;
+  cursor: pointer;
+}
+
+.back.bottom {
+  bottom: 0.3rem;
+}
+
+.position {
+  display: block;
+  width: 30%;
+  height: 1.1rem;
+  float: left;
+  margin: 0.15rem 1.5%;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.position:hover {
+  background: #ff8502;
+}
+
+.position:hover > h1,
+.position:hover > h2 {
+  color: #fff;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.position h1 {
+  font-size: 0.18rem;
+  color: #ff8502;
+  margin: 0.24rem 0.15rem 0.15rem;
+}
+
+.position h1 span {
+  float: right;
+  font-weight: normal;
+}
+
+.position h2 {
+  font-size: 0.14rem;
+  color: #505050;
+  margin: 0 0.15rem;
+}
+
+
+/*职位推荐  没有的情况*/
+
+.commend_positions.no_positions {
+  bottom: 15%;
+  background: url('images/backG_positiontj.png') no-repeat center;
+  background-size: 100%;
+}
+
+.cry_boy {
+  width: 15%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.no_positions h1 {
+  font-size: 0.2rem;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.cry_font {
+  width: 65%;
+  margin: auto;
+  margin-top: 0.6rem;
+}
+
+.switch_job {
+  display: block;
+  width: 20%;
+  margin: auto;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+
+/*自适应*/
+
+@media screen and (max-width: 1440px) {
+  .city .fonts,
+  .gcs .fonts {
+    width: 0.9rem;
+  }
+  .yy .fonts {
+    margin-left: 1%;
+  }
+  .position_bg.product {
+    background: url('images/product.png') no-repeat right top;
+    background-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .login_content {
+    width: 35%;
+    height: 25%;
+    background: none;
+  }
+  .logo {
+    width: 30%;
+    margin-left: -15%;
+    top: 13%;
+  }
+  .banner {
+    width: 58%;
+    margin-left: -29%;
+    top: 30%;
+  }
+  .font {
+    width: 50%;
+    margin-left: -25%;
+    top: 60%;
+  }
+  .start {
+    width: 28%;
+    margin-left: -14%;
+  }
+  .stepOne_font {
+    width: 56%;
+    margin-left: -28%;
+  }
+  .sex {
+    width: 48%;
+    margin-left: -24%;
+  }
+  .fonts {
+    width: 3rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.4rem;
+  }
+  .fonts.big_font {
+    font-size: 0.44rem;
+  }
+  .people {
+    width: 46%;
+    margin-left: -23%;
+  }
+  .pp {
+    width: 2.15rem;
+  }
+  .pp.pp_girl {
+    width: 2.45rem;
+  }
+  .stepTwo_font {
+    width: 66%;
+    margin-left: -33%;
+  }
+  .city {
+    width: 66%;
+    margin-left: -32%;
+  }
+  .city .fonts {
+    width: 2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin: 12px 16px;
+  }
+  .map {
+    width: 60%;
+    margin-left: -30%;
+  }
+  .ren.girl_p {
+    width: 3rem;
+    margin-left: -1.8rem;
+  }
+  .ren.boy_p {
+    width: 2.6rem;
+    margin-left: -1.3rem;
+  }
+  .stepThree_font,
+  .stepThree_font.sq {
+    width: 66%;
+    margin-left: -33%;
+  }
+  .type {
+    width: 60%;
+    margin-left: -30%;
+    top: 38%;
+  }
+  .type .fonts {
+    width: 2.5rem;
+    height: 0.85rem;
+    line-height: 0.85rem;
+    margin: 0.25rem 0.15rem;
+  }
+  .type .fonts.weight {
+    width: 4rem;
+  }
+  .backG {
+    width: 12rem;
+    margin-left: -6rem;
+  }
+  .back.zz,
+  .backG.xx,
+  .backG.sq,
+  .backG.xy,
+  .backG.pds,
+  .backG.ay,
+  .backG.zk,
+  .back.xc,
+  .backG.qt {
+    width: 10rem;
+    margin-left: -5rem;
+  }
+  .backG.ny {
+    width: 8.5rem;
+    margin-left: -1rem;
+  }
+  .position_font {
+    width: 54%;
+    margin-left: -27%;
+  }
+  .gcs {
+    width: 64%;
+    margin-left: -32%;
+  }
+  .gcs .fonts {
+    width: 2rem;
+    height: 0.72rem;
+    line-height: 0.72rem;
+  }
+  .position_bg {
+    width: 6rem;
+    margin-left: -3rem;
+    bottom: 16%;
+  }
+  .position_bg.enginner {
+    bottom: 20%;
+  }
+  .cp {
+    width: 58%;
+    margin-left: -29%;
+  }
+  .cp .fonts {
+    width: 2.2rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+  }
+  .position_bg.product {
+    width: 6rem;
+    height: 33%;
+    background: url('images/product.png') no-repeat right top;
+    background-size: 1.9rem;
+  }
+  .position_bg.design {
+    margin-left: -1.6rem;
+    bottom: 18%;
+  }
+  .yy {
+    width: 60%;
+    margin-left: -30%;
+  }
+  .yy .fonts {
+    width: 2.4rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    margin-left: 1.5%;
+  }
+  .position_bg.operation {
+    bottom: 12%;
+  }
+  .position_bg.market {
+    width: 5rem;
+    margin: -0.5rem;
+    bottom: 19%;
+  }
+  .position_bg.administration {
+    width: 4rem;
+    margin-left: -0.5rem;
+    bottom: 18%;
+  }
+  .stepFive_font {
+    width: 50%;
+    margin-left: -25%;
+  }
+  .experience {
+    width: 62%;
+    margin-left: -35%;
+  }
+  .experience .fonts {
+    width: 3.5rem;
+    height: 0.85rem;
+    line-height: 0.85rem;
+  }
+  .stepSix_font {
+    width: 50%;
+    margin-left: -25%;
+  }
+  .school {
+    width: 32%;
+    margin-left: -16%;
+  }
+  .school .fonts {
+    width: 5rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+  }
+  .stepSeven_font {
+    width: 50%;
+    margin-left: -25%;
+  }
+  .department {
+    width: 70%;
+    margin-left: -35%;
+  }
+  .department .fonts {
+    width: 5rem;
+    height: 0.85rem;
+    line-height: 0.85rem;
+    margin: 2% 5%;
+  }
+  .backG.xueli {
+    width: 9rem;
+    margin-left: -4.5rem;
+  }
+  .stepEight_font {
+    width: 50%;
+    margin-left: -25%;
+  }
+  .Boss {
+    width: 60%;
+    margin-left: -30%;
+  }
+  .Boss .fonts {
+    width: 7rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    margin: 2% 20%;
+  }
+  .fonts.marginLeft {
+    margin-left: 20%;
+  }
+  .stepNine_font {
+    width: 62%;
+    margin-left: -31%;
+  }
+  .stepTen_font {
+    width: 50%;
+    margin-left: -25%;
+  }
+  .Boss .fonts.gfs {
+    width: 7rem;
+    margin-left: 20%;
+  }
+  .salary_before {
+    width: 40%;
+    margin-left: -20%;
+  }
+  .number {
+    width: 75%;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+  }
+  .salary_numberA,
+  .salary_numberB {
+    width: 35%;
+    margin-left: -17%;
+  }
+  .salary_after {
+    width: 44%;
+    margin-left: -22%;
+  }
+  .last_btn {
+    width: 46%;
+    margin-left: -23%;
+  }
+  .btn_left,
+  .btn_right {
+    width: 42%;
+  }
+  .share {
+    width: 34%;
+    margin-left: -17%;
+  }
+  .commend_banner {
+    width: 60%;
+    margin-left: -30%;
+    top: 25%;
+  }
+  .commend_font {
+    width: 44%;
+    margin-left: -22%;
+    top: 38%;
+  }
+  .commend_positions {
+    width: 70%;
+    margin-left: -35%;
+    height: 9rem;
+    bottom: 15%;
+  }
+  .positions {
+    margin-top: 3.5rem;
+    height: 4.5rem;
+  }
+  .position {
+    height: 1.8rem;
+  }
+  .position h1 {
+    margin: 0.5rem 0.15rem 0.3rem;
+  }
+  .commend_positions.no_positions {
+    bottom: 24%;
+  }
+  .cry_boy {
+    margin-top: 1.5rem;
+  }
+  .login_content {
+    width: 45%;
+    height: 45%;
+    min-height: 11rem;
+  }
+  .remind {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.4rem;
+  }
+  .code {
+    font-size: 0.35rem;
+  }
+  .code_font {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.5rem;
+  }
+  .login .login_mobile {
+    height: 1rem;
+  }
+  .login_pic {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0.25rem 5%;
+  }
+  .login .login_code {
+    height: 1rem;
+  }
+  .login_code .login_pic {
+    margin-top: 0.32rem;
+  }
+  .code {
+    line-height: 1rem;
+  }
+  .login_btn {
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.4rem;
+    margin-top: 1rem;
+  }
+  .ewm_box.block {
+    display: none;
+  }
+  .share {
+    display: none;
+  }
+  .back {
+    width: 2rem;
+    height: 0.5rem;
+    bottom: -8%;
+  }
+  .back.bottom {
+    bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .login_content {
+    height: 42%;
+    background: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .city .fonts {
+    margin: 12px;
+  }
+  .yy .fonts {
+    margin-left: 1%;
+  }
+  .position h1 {
+    margin: 0.3rem 0.15rem 0.3rem;
+    font-size: 0.45rem;
+  }
+  .position h2 {
+    font-size: 0.4rem;
+  }
+  .commend_positions {
+    bottom: 18%;
+  }
+  .login_content {
+    width: 85%;
+    height: 48%;
+    min-height: 14rem;
+  }
+  .code {
+    font-size: 0.4rem;
+  }
+  .code_font {
+    font-size: 0.7rem;
+  }
+  .login .login_mobile {
+    height: 1.5rem;
+  }
+  .login_pic {
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: 0.45rem 5%;
+  }
+  .login .login_code {
+    margin-top: 1rem;
+    height: 1.5rem;
+  }
+  .login_code .login_pic {
+    margin-top: 0.52rem;
+  }
+  .code {
+    line-height: 1.5rem;
+  }
+  .login_btn {
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.6rem;
+    margin-top: 1.2rem;
+  }
+  .back {
+    height: 0.8rem;
+    bottom: -15%;
+  }
+  .back.bottom {
+    bottom: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .font {
+    width: 60%;
+    margin-left: -30%;
+  }
+  .sex {
+    width: 62%;
+    margin-left: -31%;
+  }
+  .fonts.big_font {
+    width: 4.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+  }
+  .city .fonts {
+    margin: 7px;
+    width: 3rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .type {
+    width: 70%;
+    margin-left: -35%;
+  }
+  .type .fonts {
+    margin: 0.25rem 0.35rem;
+    width: 3.5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .type .fonts.weight {
+    width: 6rem;
+  }
+  .gcs .fonts {
+    width: 2.5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .position_bg.engineer {
+    bottom: 25%;
+  }
+  .cp .fonts {
+    width: 3.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .position_bg.product {
+    height: 26%;
+  }
+  .position_bg.design {
+    bottom: 23%;
+  }
+  .yy {
+    width: 78%;
+    margin-left: -37%;
+  }
+  .yy .fonts {
+    width: 3.4rem;
+    margin-left: 3.5%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .yy .font.cehua {
+    margin-left: 3.5%;
+  }
+  .position_bg.market {
+    bottom: 24%;
+  }
+  .experience,
+  .school,
+  .department,
+  .Boss {
+    top: 26%;
+  }
+  .department {
+    width: 62%;
+    margin-left: -31%;
+  }
+  .school .fonts,
+  .experience .fonts,
+  .department .fonts,
+  .Boss .fonts,
+  .Boss .fonts.gfs {
+    width: 12rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin: 5% 5%;
+    font-size: 0.7rem;
+  }
+  .fonts.ages {
+    margin-left: 5%;
+  }
+  .school {
+    width: 62%;
+    margin-left: -31%;
+  }
+  .commend_font {
+    top: 35%;
+  }
+  .stepEight_font {
+    width: 54%;
+    margin-left: -27%;
+  }
+  .last_btn {
+    bottom: 40%;
+    width: 56%;
+    margin-left: -28%;
+  }
+  .btn_left,
+  .btn_right {
+    width: 46%;
+  }
+  .share {
+    width: 44%;
+    margin-left: -22%;
+    bottom: 24%;
+  }
+  .commend_positions {
+    width: 80%;
+    margin-left: -40%;
+    height: 18rem;
+    background: url('images/backG_mobile.png') no-repeat center;
+    background-size: 100%;
+    bottom: 11%;
+  }
+  .positions {
+    margin-top: 4.5rem;
+    height: 11rem;
+  }
+  .position {
+    width: 42%;
+    height: 3rem;
+    margin: 0.3rem 4%;
+  }
+  .commend_positions.no_positions {
+    height: 10rem;
+  }
+  .back {
+    height: 1rem;
+    bottom: -10%;
+  }
+  .back.bottom {
+    bottom: 1rem;
+  }
+  .fonts {
+    font-size: 0.55rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city .fonts {
+    width: 2.8rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .type .fonts {
+    width: 3rem;
+  }
+  .fonts.big_font {
+    height: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .type .fonts {
+    width: 5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin: 0.3rem 0.4rem;
+  }
+  .type .fonts.shichang {
+    margin-left: 0.4rem;
+  }
+  .gcs .fonts {
+    width: 3.2rem;
+    margin: 6px;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .cp .fonts {
+    width: 4.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-left: 5%;
+  }
+  .yy .fonts {
+    width: 4.6rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-left: 5%;
+  }
+  .yy.yy_mobile {
+    width: 80%;
+    margin-left: -40%;
+  }
+  .yy.yy_mobile .fonts {
+    width: 3.5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-left: 3%;
+  }
+  .Boss {
+    width: 80%;
+    margin-left: -40%;
+  }
+  .Boss .fonts,
+  .Boss .fonts.gfs {
+    width: 12rem;
+    margin: 5% 10%;
+  }
+  .login_code label {
+    width: 66%;
+  }
+  .code {
+    width: 32%;
+  }
+}
