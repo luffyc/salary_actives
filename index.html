@@ -1,0 +1,667 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>天基人才网 职场身价测试 跳槽钱看你值多少钱</title>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <link href="css.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="content">
+    <div class="both"><img src="images/background.png"></div>
+    <div class="point point_one"><img src="images/point_one.png"></div>
+    <div class="point point_two"><img src="images/point_two.png"></div>
+    <div class="point point_three"><img src="images/point_one.png"></div>
+    <div id="change">
+      <div class="backgroundColor">
+        <div class="logo"><img src="images/logo.png"></div>
+        <div class="banner"><img src="images/banner.png"></div>
+        <div class="font"><img src="images/fonts.png"></div>
+        <div class="start"><img src="images/start.png"></div>
+      </div>
+    </div>
+  </div>
+  <script type="text/html" id="start">
+    <div class="backgroundColor">
+      <div class="logo"><img src="images/logo.png"></div>
+      <div class="banner"><img src="images/banner.png"></div>
+      <div class="font"><img src="images/fonts.png"></div>
+      <div class="start"><img src="images/start.png"></div>
+    </div>
+  </script>
+  <script type="text/html" id="step1">
+    <div class="backgroundColor">
+      <div class="stepOne_font"><img src="images/stepOne_font.png"></div>
+      <div class="box sex">
+        <label>
+          <input name="sex" type="radio" value="boy_p"></input>
+          <div class="fonts big_font" text="男">男神一枚</div>
+        </label>
+        <label>
+          <input name="sex" type="radio" value="girl_p"></input>
+          <div class="fonts big_font" text="女" style="float: right; margin-right: 5%;">女神一枚</div>
+        </label>
+      </div>
+      <div class="people">
+        <div class="pp"><img src="images/boy.png"></div>
+        <div class="pp pp_girl"><img src="images/girl.png"></div>
+      </div>
+    </div>
+  </script>
+  <script type="text/html" id="step2">
+    <div class="backgroundColor">
+      <div class="stepTwo_font"><img src="images/stepTwo_font.png"></div>
+      <div class="box city">
+        <label>
+          <input name="city" type="radio" value="zz"></input>
+          <div class="fonts">郑州</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="kf"></input>
+          <div class="fonts">开封</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="xx"></input>
+          <div class="fonts">新乡</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="ly"></input>
+          <div class="fonts">洛阳</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="sq"></input>
+          <div class="fonts">商丘</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="ny"></input>
+          <div class="fonts">南阳</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="jz"></input>
+          <div class="fonts">焦作</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="pds"></input>
+          <div class="fonts">平顶山</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="ay"></input>
+          <div class="fonts">安阳</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="zk"></input>
+          <div class="fonts">周口</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="xy"></input>
+          <div class="fonts">信阳</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="xc"></input>
+          <div class="fonts">许昌</div>
+        </label>
+        <label>
+          <input name="city" type="radio" value="qt"></input>
+          <div class="fonts">其它</div>
+        </label>
+      </div>
+      <div class="map"><img src="images/map.png"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="step3">
+    <div class="backgroundColor">
+      <div class="stepThree_font"></div>
+      <div class="box type">
+        <label>
+          <input name="a" type="radio" value="engineer"></input>
+          <div class="fonts">工程狮</div>
+        </label>
+        <label>
+          <input name="a" type="radio" value="product"></input>
+          <div class="fonts">产品锦鲤</div>
+        </label>
+        <label>
+          <input name="a" type="radio" value="design"></input>
+          <div class="fonts">设计猿</div>
+        </label>
+        <label>
+          <input name="a" type="radio" value="operation"></input>
+          <div class="fonts">运营狗</div>
+        </label>
+        <label>
+          <input name="a" type="radio" value="market"></input>
+          <div class="fonts shichang">市场精鹰</div>
+        </label>
+        <label>
+          <input name="a" type="radio" value="administration"></input>
+          <div class="fonts weight">行政/人事/财务喵</div>
+        </label>
+      </div>
+      <div class="backG"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="engineer">
+    <div class="backgroundColor">
+      <div class="position_font"><img src="images/positions.png"></div>
+      <div class="box gcs">
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">Java</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">PHP</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">.NET</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">C++</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">android</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">ios</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">html5</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">前端</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">测试</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">运维</div>
+        </label>
+        <label>
+          <input name="b" type="radio"></input>
+          <div class="fonts next">技术总监</div>
+        </label>
+      </div>
+      <div class="position_bg engineer"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="product">
+    <div class="backgroundColor">
+      <div class="position_font"><img src="images/positions.png"></div>
+      <div class="box cp">
+        <label>
+          <input name="c" type="radio"></input>
+          <div class="fonts next">产品助理</div>
+        </label>
+        <label>
+          <input name="c" type="radio"></input>
+          <div class="fonts next">产品经理</div>
+        </label>
+        <label>
+          <input name="c" type="radio"></input>
+          <div class="fonts next">产品总监</div>
+        </label>
+      </div>
+      <div class="position_bg product"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="design">
+    <div class="backgroundColor">
+      <div class="position_font"><img src="images/positions.png"></div>
+      <div class="box cp">
+        <label>
+          <input name="d" type="radio"></input>
+          <div class="fonts next">平面设计</div>
+        </label>
+        <label>
+          <input name="d" type="radio"></input>
+          <div class="fonts next">UI</div>
+        </label>
+        <label>
+          <input name="d" type="radio"></input>
+          <div class="fonts next">UE</div>
+        </label>
+      </div>
+      <div class="position_bg design"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="operation">
+    <div class="backgroundColor">
+      <div class="position_font"><img src="images/positions.png"></div>
+      <div class="box yy">
+        <label>
+          <input name="e" type="radio"></input>
+          <div class="fonts next">运营总监</div>
+        </label>
+        <label>
+          <input name="e" type="radio"></input>
+          <div class="fonts next">运营经理</div>
+        </label>
+        <label>
+          <input name="e" type="radio"></input>
+          <div class="fonts next">运营专员</div>
+        </label>
+        <label>
+          <input name="e" type="radio"></input>
+          <div class="fonts next">文案/编辑</div>
+        </label>
+        <label>
+          <input name="e" type="radio"></input>
+          <div class="fonts next cehua">策划</div>
+        </label>
+        <label>
+          <input name="e" type="radio"></input>
+          <div class="fonts next">SEO|SEM</div>
+        </label>
+        <label>
+          <input name="e" type="radio"></input>
+          <div class="fonts next" style="padding: 0 8px;">新媒体运营</div>
+        </label>
+      </div>
+      <div class="position_bg operation"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="administration">
+    <div class="backgroundColor">
+      <div class="position_font"><img src="images/positions.png"></div>
+      <div class="box yy yy_mobile">
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next">前台</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next" style="padding: 0 8px;">行政助理</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next">行政经理</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next">行政总监</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next">人事专员</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next">人事经理</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next">会计</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next">出纳</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next" style="width: 140px;">人力资源总监</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next" style="width: 150px;">财务/会计经理</div>
+        </label>
+        <label>
+          <input name="f" type="radio"></input>
+          <div class="fonts next">财务总监</div>
+        </label>
+      </div>
+      <div class="position_bg administration"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="market">
+    <div class="backgroundColor">
+      <div class="position_font"><img src="images/positions.png"></div>
+      <div class="box yy">
+        <label>
+          <input name="g" type="radio"></input>
+          <div class="fonts next">销售助理</div>
+        </label>
+        <label>
+          <input name="g" type="radio"></input>
+          <div class="fonts next">销售经理</div>
+        </label>
+        <label>
+          <input name="g" type="radio"></input>
+          <div class="fonts next">销售总监</div>
+        </label>
+        <label>
+          <input name="g" type="radio"></input>
+          <div class="fonts next">媒介/公关</div>
+        </label>
+        <label>
+          <input name="g" type="radio"></input>
+          <div class="fonts next marginLeft">品牌专员</div>
+        </label>
+        <label>
+          <input name="g" type="radio"></input>
+          <div class="fonts next">品牌经理</div>
+        </label>
+      </div>
+      <div class="position_bg market"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="step5">
+    <div class="backgroundColor">
+      <div class="stepFive_font"><img src="images/stepFive_font.png"></div>
+      <div class="box experience">
+        <label>
+          <input name="experience" type="radio"></input>
+          <div class="fonts" text="1-2年">1 ~ 2年的小白</div>
+        </label>
+        <label>
+          <input name="experience" type="radio"></input>
+          <div class="fonts ages" text="2-4年">2 ~ 4年的鲜肉</div>
+        </label>
+        <label>
+          <input name="experience" type="radio"></input>
+          <div class="fonts" text="4-8年">4 ~ 8年的老鸟</div>
+        </label>
+        <label>
+          <input name="experience" type="radio"></input>
+          <div class="fonts ages" text="8年以上">8年以上的人精</div>
+        </label>
+      </div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="step6">
+    <div class="backgroundColor">
+      <div class="stepSix_font"><img src="images/stepSix_font.png"></div>
+      <div class="box school">
+        <label>
+          <input name="school" type="radio" value="zhuanke"></input>
+          <div class="fonts" text="大专">蓝翔毕业，技能傍身</div>
+        </label>
+        <label>
+          <input name="school" type="radio" value="benke"></input>
+          <div class="fonts" text="本科">大学毕业，学富五车</div>
+        </label>
+        <label>
+          <input name="school" type="radio" value="yanjiusheng"></input>
+          <div class="fonts" text="研究生">才高八斗，研究学者</div>
+        </label>
+      </div>
+      <div class="backG backG_school xueli"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="step7">
+    <div class="backgroundColor">
+      <div class="stepSeven_font"><img src="images/stepSeven_font.png"></div>
+      <div class="box department">
+        <label>
+          <input name="department" type="radio"></input>
+          <div class="fonts" text="1-50人">1 ~ 50人的小而美的公司</div>
+        </label>
+        <label>
+          <input name="department" type="radio"></input>
+          <div class="fonts" text="51-100人">51 ~ 100人的潜力公司</div>
+        </label>
+        <label>
+          <input name="department" type="radio"></input>
+          <div class="fonts" text="101-200人">101 ~ 200人的大型公司</div>
+        </label>
+        <label>
+          <input name="department" type="radio"></input>
+          <div class="fonts" text="200以上">200人以上的土豪公司</div>
+        </label>
+      </div>
+      <div class="backG xueli"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="step8">
+    <div class="backgroundColor">
+      <div class="stepEight_font"><img src="images/stepEight_font.png"></div>
+      <div class="box Boss">
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts boss_btn">脾气好，不怕重回第一稿</div>
+        </label>
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts boss_btn">无所谓，创意随你改到废</div>
+        </label>
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts boss_btn marginLeft">你不想说话，并扔出一条狗</div>
+        </label>
+      </div>
+      <div class="backG"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="step9">
+    <div class="backgroundColor">
+      <div class="stepNine_font"><img src="images/stepNine_font.png"></div>
+      <div class="box Boss">
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts press_btn">听音乐一起嗨</div>
+        </label>
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts press_btn">唯有暴富</div>
+        </label>
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts press_btn marginLeft">站墙根儿朗读社会主义价值观</div>
+        </label>
+      </div>
+      <div class="backG"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="step10">
+    <div class="backgroundColor">
+      <div class="stepTen_font"><img src="images/stepTen_font.png"></div>
+      <div class="box Boss">
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts chance_btn">求金主，求加薪</div>
+        </label>
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts chance_btn">求升值，求郑州一套房</div>
+        </label>
+        <label>
+          <input name="boss" type="radio"></input>
+          <div class="fonts chance_btn gfs">求转运，成为高富帅，战胜富二代</div>
+        </label>
+      </div>
+      <div class="backG"></div>
+      <div class="ren"></div>
+    </div>
+  </script>
+  <script type="text/html" id="last">
+    <div class="backgroundColor">
+      <div class="salary_before"><img src="images/salaryb_font.png"></div>
+      <div class="salary_numberB">
+        <div class="picture"><img src="images/lastb_pic.png"></div>
+        <div class="number number_before"></div>
+      </div>
+      <div class="salary_after"><img src="images/salarya_font.png"></div>
+      <div class="salary_numberA">
+        <div class="picture"><img src="images/lasta_pic.png"></div>
+        <div class="number number_after" style="color: #4FC102"></div>
+      </div>
+      <div class="last_btn">
+        <div class="btn_left"><img src="images/play_again.png"></div>
+        <div class="btn_right"><img src="images/tiaocao_pic.png"></div>
+      </div>
+      <div class="share">
+        <div class="share_font"><img src="images/share_font.png"></div>
+        <div class="share_pic weixin"><img src="images/weixin.png"></div>
+        <!--<div class="share_pic weibo"><img src="images/weibo.png"></div>-->
+      </div>
+      <div class="ewm_box">
+        <div class="ewm_font"><img src="images/share_ewm.png"></div>
+        <div class="ewm"><img src="images/ewm.png"></div>
+        <div class="ewm_close"><img src="images/close.png"></div>
+      </div>
+    </div>
+  </script>
+  <script type="text/html" id="login_box">
+    <div class="login_content">
+      <div class="login">
+        <div class="remind">亲，你还没有登录，请登陆后再测试哦~</div>
+        <div class="code_font">手机动态码登录</div>
+        <label class="login_mobile">
+          <div class="login_pic"><img src="images/login_mobile.png"></div>
+          <input placeholder="请输入手机号" id="mobile"></input>
+        </label>
+        <div class="warning warning_mobile"></div>
+        <div class="login_code">
+          <label>
+            <div class="login_pic"><img src="images/login_code.png"></div>
+            <input placeholder="请输入短信验证码" id="smscode"></input>
+          </label>
+          <div class="code">获取验证码</div>
+          <div class="code_cover"></div>
+        </div>
+        <div class="warning warning_code"></div>
+        <div class="login_btn">登录</div>
+      </div>
+    </div>
+  </script>
+  <script type="text/html" id="have_commend">
+    <div class="commend">
+      <div class="logo"><img src="images/logo.png"></div>
+      <div class="commend_banner"><img src="images/commend_banner.png"></div>
+      <div class="commend_font"><img src="images/commend_font.png"></div>
+      <div class="commend_positions">
+        <div class="positions">
+          <a href="" class="position">
+            <h1>行政专员<span>2k-4k<span></h1>
+            <h2>河南天基房地产有限公司</h2>
+          </a>
+          <a href="" class="position">
+            <h1>行政专员<span>2k-4k<span></h1>
+            <h2>河南天基房地产有限公司</h2>
+          </a>
+          <a href="" class="position">
+            <h1>行政专员<span>2k-4k<span></h1>
+            <h2>河南天基房地产有限公司</h2>
+          </a>
+          <a href="" class="position">
+            <h1>行政专员<span>2k-4k<span></h1>
+            <h2>河南天基房地产有限公司</h2>
+          </a>
+          <a href="" class="position">
+            <h1>行政专员<span>2k-4k<span></h1>
+            <h2>河南天基房地产有限公司</h2>
+          </a>
+          <a href="" class="position">
+            <h1>行政专员<span>2k-4k<span></h1>
+            <h2>河南天基房地产有限公司</h2>
+          </a>
+          <div class="back">返回</div>
+        </div>
+      </div>
+    </div>
+  </script>
+  <script type="text/html" id="no_commend">
+    <div class="commend">
+      <div class="logo"><img src="images/logo.png"></div>
+      <div class="commend_banner"><img src="images/commend_banner.png"></div>
+      <div class="commend_positions no_positions">
+        <div class="cry_boy"><img src="images/cry_pic.png"></div>
+        <h1>没有找到符合您条件的互联网相关职位</h1>
+        <div class="cry_font"><img src="images/cry_font.png"></div>
+        <a href="https://www.tianjihr.com/" target="_blank" class="switch_job"><img src="images/zhuanhang_btn.png"></a>
+        <div class="back bottom">返回</div>
+      </div>
+    </div>
+  </script>
+  <script src="https://www.tianjihr.com/Scripts/jquery.cookie.js"></script>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  <script src="js.js?v=12"></script>
+  <script>
+  (function() {
+    //分享
+    $.get("https://wx.tianjihr.com/WeiXinOAuth/jssharejson", {
+        url: "https://www.tianjihr.com/huodong/xzcp/" + location.search
+      },
+      function(data) {
+        wx.config({
+          debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+          appId: data.appId, // 必填，公众号的唯一标识
+          timestamp: data.timestamp, // 必填，生成签名的时间戳
+          nonceStr: data.nonceStr, // 必填，生成签名的随机串
+          signature: data.signature, // 必填，签名，见附录1
+          jsApiList: [
+              'checkJsApi',
+              'onMenuShareTimeline',
+              'onMenuShareAppMessage',
+              'hideOptionMenu',
+              'hideMenuItems'
+            ] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+        });
+
+
+        wx.ready(function() {
+          wx.onMenuShareTimeline({
+            title: '天基人才网 职场身价测试 跳槽钱看你值多少钱', // 分享标题
+            link: "https://www.tianjihr.com/huodong/xzcp/" + location.search, // 分享链接
+            imgUrl: 'https://www.tianjihr.com/huodong/xiaridichan/h5/images/200.png', // 分享图标
+            success: function() {
+
+            },
+            cancel: function() {
+
+            }
+          });
+
+          wx.onMenuShareAppMessage({
+            title: '天基人才网 职场身价测试 跳槽钱看你值多少钱', // 分享标题
+            desc: '有些事任性不得，跟老板叫板前还是来看看自己值多少钱？', // 分享描述
+            link: "https://www.tianjihr.com/huodong/xzcp/" + location.search, // 分享链接
+            imgUrl: 'https://www.tianjihr.com/huodong/xiaridichan/h5/images/200.png', // 分享图标
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function() {
+              // 用户确认分享后执行的回调函数
+            },
+            cancel: function() {
+              // 用户取消分享后执行的回调函数
+            }
+          });
+          wx.showMenuItems({
+            menuList: ['menuItem:profile', 'menuItem:addContact'] // 要显示的菜单项，所有menu项见附录3
+          });
+
+
+        });
+      });
+
+
+
+
+  })();
+  </script>
+</body>
+
+</html>
