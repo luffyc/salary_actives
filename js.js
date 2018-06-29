@@ -1,6 +1,6 @@
 ﻿$(function () {
-    $.cookie.raw = true;
-    $.cookie('redirect_url', '/huodong/xzcp/', { expires: 7, path: '/' });
+    //$.cookie.raw = true;
+    //$.cookie('redirect_url', '/huodong/xzcp/', { expires: 7, path: '/' });
 
 
 
